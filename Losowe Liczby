@@ -1,0 +1,19 @@
+import java.util.Random;
+
+public class MyClass{
+
+     public static void main(String []args){
+        
+        
+        Random rand = new Random();
+        int a = rand.nextInt(11);
+        int b = rand.nextInt(11);
+        System.out.println(" Suma "+a+" + "+b+" = "+(a+b));
+        System.out.println(" Różnica "+a+" - "+b+" = "+(a-b));
+        System.out.println(" Iloczyn "+a+" * "+b+" = "+(a*b));
+        if (b!=0){
+            System.out.println(" Iloraz "+a+" / "+b+" = "+(a/b));
+        }else{
+           System.out.println(" Nie można dzielić przez zero ");
+        }
+}
