@@ -1,0 +1,14 @@
+public class Main{
+
+     public static void main(String []args){
+        System.out.println("Sieeeema");
+        int a;
+        double b, c, d;
+        String miasto;
+        a = 123;
+        b = 2.34;
+        miasto = "Rzeszow";
+        System.out.println("Miasto: "+ miasto);
+        System.out.println("a ="+a+" b= "+b);
+     }
+}
