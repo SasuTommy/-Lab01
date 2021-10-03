@@ -1,0 +1,14 @@
+import java.util.Random;
+
+public class MyClass{
+
+     public static void main(String []args){
+        
+        
+        Random rand = new Random();
+        int a = rand.nextInt(11);
+        
+        System.out.println("a = "+a+ " ^3 = "+Math.pow(a,3));
+    
+     }
+}
